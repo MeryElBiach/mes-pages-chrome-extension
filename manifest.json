@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Mes Pages",
+  "version": "1.1",
+  "description": "Sauvegarde le titre et le lien des pages à relire plus tard",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
